@@ -2,7 +2,7 @@ import Gun from 'gun/gun';
 import 'gun/sea';
 
 let database = new Gun({
-    peers: process.env.PEERS ? process.env.PEERS.split(",") : [],
+    peers: import.meta.env.PEERS ? import.meta.env.PEERS.split(",") : [],
     axe: false
 });
 
