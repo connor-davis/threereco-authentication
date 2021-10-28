@@ -1,3 +1,3 @@
-import { login } from "./methods";
+import { login, register } from "./methods";
 
-export { login }
+export { login, register };
