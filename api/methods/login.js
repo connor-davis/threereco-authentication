@@ -9,7 +9,7 @@ import { user } from "../../utils/gun";
  * 
  * @param {Function} callback The callback provides either an error message and code or the users soul if a successfull login took place.
  */
-let login = (credentials = {}, callback = () => { }) => {
+let login = (credentials, callback) => {
     if (!credentials.id || !credentials.password)
         return callback({
             errMessage: 'Please specify required credentials.',

@@ -22,9 +22,9 @@ import { database, user } from "../../utils/gun";
 * @param {String} credentials.id
 * @param {String} credentials.password
 * 
-* @param {Function} callback The callback provides either an error message and code or the users soul if a successfull registration took place.
+* @param {function} callback The callback provides either an error message and code or the users soul if a successfull registration took place.
 */
-let register = (credentials = {}, callback = () => { }) => {
+let register = (credentials, callback) => {
  if (!credentials.id || !credentials.password)
    return callback({
      errMessage: 'Please specify required credentials.',
