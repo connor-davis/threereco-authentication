@@ -1,3 +1,10 @@
-# Official GreenMart Protocol
+# 3rEco Authentication Module
 
-This is the official protocol for GreenMart. Make sure to look at the wiki for a more in-depth explanation of how to use the protocol.
+This module will hold all necessary methods used for authentication throughout the 3rEco system.
+
+Features:
+
+- [x] Signing in an existing 3rEco user.
+- [x] Signing up a new 3rEco user.
+- [ ] Signing in an existing 6dot50 user.
+- [ ] Signing up a new 6dot50 user.
