@@ -51,7 +51,7 @@ let register = (credentials, callback) => {
            });
          }
        });
-     else callback({ errMessage: 'ID Number already taken.', errCode: 'alias-taken' });
+     else callback({ errMessage: 'ID already taken.', errCode: 'id-taken' });
    })();
  }
 };
