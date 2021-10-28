@@ -1,3 +1,3 @@
 import api from './api';
 
-export default api;
+module.exports = api;
